@@ -31,6 +31,6 @@ app.post('/webhook', (req, res) => {
   res.status(200).json({ message: 'Webhook received' });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT,'0.0.0.0', () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
