@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment variables
+.env
+.env.test
+.env.*.local
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: if using TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# Optional: if using VSCode
+.vscode/
+.history/
+
+# Optional: if using PM2 process manager
+pids
+*.pid
+*.seed
+
+# Optional: if using coverage tools like Istanbul
+coverage/
+
+# Optional: if using Prisma
+prisma/migrations/
